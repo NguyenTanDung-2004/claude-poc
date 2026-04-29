@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import fastapi, httpx, pytest; print\\(fastapi.__version__, httpx.__version__, pytest.__version__\\)\")",
+      "Bash(python -m pytest -q)",
+      "Bash(git rm *)"
+    ]
+  }
+}
